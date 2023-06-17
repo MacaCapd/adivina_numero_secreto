@@ -9,6 +9,8 @@ const juegoAdivinanza = () => {
     const numeroSecreto = generarNumeroAleatorio();
     let numeroAdivinado = 0;
 
+    console.log(numeroSecreto);
+
     console.log('¡Bienvenido a Adivina el número secreto!');
     console.log('Intenta adivinar el número del 1 al 100.\n');
 

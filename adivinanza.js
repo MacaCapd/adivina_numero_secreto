@@ -3,7 +3,7 @@ const generarNumeroAleatorio = () => {
 };
 
 const verificarAdivinanza = (numeroSecreto, numeroAdivinado) => {
-    if (numeroAdivinado === numeroSecreto) {
+    if (numeroAdivinado == numeroSecreto) {
         console.log('¡Felicitaciones! ¡Adivinaste el número secreto!');
     }else if (numeroAdivinado > numeroSecreto) {
         console.log('El número secreto es menor. ¡Sigue intentanto!');
